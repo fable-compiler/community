@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Thoth.Json",
+        "description": "JSON serializer for Fable and .NET apps",
+        "link": "https://mangelmaxime.github.io/Thoth/json/v3.html",
+        "category": "library"
+    },
+    {
+        "title": "Fable.SimpleHttp",
+        "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill.",
+        "link": "https://github.com/Zaid-Ajaj/Fable.SimpleHttp",
+        "category": "library"
+    }    
+]
