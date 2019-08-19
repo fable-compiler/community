@@ -9161,7 +9161,10 @@ body {
   flex: 1 0 auto;
 }
 .main-section .intro-text {
-  color: #0077ea;
+  margin-bottom: 40px;
+}
+.main-section .intro-text .title.is-4 {
+  color: #006ad1;
 }
 .main-section .resource-item {
   margin: 20px 0;
@@ -9216,4 +9219,4 @@ body {
   color: dodgerblue !important;
 }
 
-/*# sourceMappingURL=style.4b1868502199f5c249d7.css.map*/
+/*# sourceMappingURL=style.220ee9cb5ae254671c47.css.map*/
