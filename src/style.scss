@@ -1,0 +1,93 @@
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$purple: #7a325d;
+$blue: #0055a4;
+$primary: $blue;
+$black: #202020;
+// $fable-blue: #2294fc;
+$fable-blue: dodgerblue;
+$body-background: whitesmoke;
+$family-sans-serif: "Open Sans", sans-serif;
+$navbar-breakpoint: 600px;
+
+@import "../node_modules/bulma/bulma";
+
+// Needed otherwise iframes show a disabled scrollbar
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.elmish-app {
+  font-size: 1.1em;
+  font-weight: 200;
+  background: $body-background;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+ flex: 1 0 auto;
+ .intro-text {
+     color: darken($fable-blue, 10%);
+ }
+ .resource-item {
+     margin: 20px 0;
+ }
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: $black;
+  color: white;
+  padding: 20px 10px;
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.navbar {
+  font-size: 1.2em;
+  background-color: $fable-blue;
+  .navbar-menu {
+    // Needed to overwrite Bulma rules
+    background-color: $fable-blue;
+  }
+  .title {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .navbar-burger span {
+    background-color: white;
+  }
+  .navbar-burger:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-start {
+    font-weight: 400;
+    font-size: 1rem;
+    .navbar-item {
+      color: white;
+    }
+    .navbar-item.is-active {
+      background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .navbar-item:hover {
+      color: $fable-blue;
+    }
+  }
+  .navbar-end {
+    //   background-color: $body-background;
+    .navbar-item:hover {
+        color: $fable-blue !important;
+      }
+  }
+}
