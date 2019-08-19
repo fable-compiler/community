@@ -10,5 +10,11 @@
         "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill.",
         "link": "https://github.com/Zaid-Ajaj/Fable.SimpleHttp",
         "category": "library"
-    }    
+    },
+    {
+        "title": "Fable.Reactstrap",
+        "description": "Easy to use React Bootstrap 4 components with Fable",
+        "link": "https://nojaf.github.io/fable-reactstrap/",
+        "category": "library"
+    }
 ]
