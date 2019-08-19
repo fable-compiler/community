@@ -30,13 +30,16 @@ body {
 }
 
 .main-section {
- flex: 1 0 auto;
- .intro-text {
-     color: darken($fable-blue, 10%);
- }
- .resource-item {
-     margin: 20px 0;
- }
+  flex: 1 0 auto;
+  .intro-text {
+    .title.is-4 {
+      color: darken($fable-blue, 15%);
+    }
+    margin-bottom: 40px;
+  }
+  .resource-item {
+    margin: 20px 0;
+  }
 }
 
 .footer {
@@ -87,7 +90,7 @@ body {
   .navbar-end {
     //   background-color: $body-background;
     .navbar-item:hover {
-        color: $fable-blue !important;
-      }
+      color: $fable-blue !important;
+    }
   }
 }

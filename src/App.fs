@@ -116,8 +116,14 @@ let view (model:Model) dispatch =
                     Column.Width (Screen.All, Column.IsThreeFifths)
                     Column.Offset (Screen.All, Column.IsOneFifth)
                 ] [
-                    Heading.h4 [Heading.CustomClass "intro-text"] [
-                        str "Find resources from the community!"                        
+                    div [Class "intro-text"] [
+                        Heading.h4 [] [str "Find resources from the community!"]
+                        Heading.h6 [Heading.IsSubtitle] [
+                            str "Let's grow together. Send us a PR to "
+                            a [Href "https://github.com/fable-compiler/community/edit/master/public/community.json"] [str "add your awesome project"]
+                            str "."
+                        ]
+
                     ]
                     searchBox model dispatch
                     ul [Class "resource-list"]
