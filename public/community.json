@@ -16,5 +16,41 @@
         "description": "Easy to use React Bootstrap 4 components with Fable",
         "link": "https://nojaf.github.io/fable-reactstrap/",
         "category": "library"
+    },
+    {
+        "title": "Fable.Electron",
+        "description": "Fable bindings for Electron",
+        "link": "https://github.com/fable-compiler/fable-electron",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MaterialUI.Icons",
+        "description": "Fable bindings for @material-ui/icons",
+        "link": "https://github.com/cmeeren/Fable.MaterialUI.Icons",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MaterialUI.MaterialDesignIcons",
+        "description": "Fable bindings for mdi-material-ui",
+        "link": "https://github.com/cmeeren/Fable.MaterialUI.MaterialDesignIcons",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.MatchSorter",
+        "description": "Fable bindings for match-sorter",
+        "link": "https://github.com/cmeeren/Fable.Import.MatchSorter",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.Downshift",
+        "description": "Fable bindings for downshift",
+        "link": "https://github.com/cmeeren/Fable.Import.Downshift",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.AutosuggestHighlight",
+        "description": "Fable bindings for autosuggest-highlight",
+        "link": "https://github.com/cmeeren/Fable.Import.AutosuggestHighlight",
+        "category": "library"
     }
 ]
