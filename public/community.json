@@ -334,5 +334,11 @@
         "description": "Simple F# JSON Type Provider compatible with Fable",
         "link": "https://github.com/fable-compiler/Fable.JsonProvider",
         "category": "library"
+    },
+    {
+        "title": "SAFE template",
+        "description": "Dotnet CLI template to bootstrap SAFE projects,",
+        "link": "https://github.com/SAFE-Stack/SAFE-template",
+        "category": "template"
     }    
 ]
