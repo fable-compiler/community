@@ -144,6 +144,12 @@
         "category": "library"
     },
     {
+        "title": "Fulma-demo",
+        "description": "Live demo mimicking a Q&A application, demonstrating how Fulma can be used and how it looks like",
+        "link": "https://mangelmaxime.github.io/fulma-demo/",
+        "category": "sample"
+    },
+    {
         "title": "Fable.SimpleHttp",
         "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill",
         "link": "https://github.com/Zaid-Ajaj/Fable.SimpleHttp",
@@ -205,7 +211,7 @@
     },
     {
         "title": "Fable.FixedDataTable",
-        "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
+        "description": "Fable bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
         "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
     },
@@ -214,5 +220,16 @@
         "description": "Complete boilerplate for Electron apps using Fable and Elmish with hot module reloading, time-travel debugging, etc.",
         "link": "https://github.com/cmeeren/fable-elmish-electron-material-ui-demo",
         "category": "sample"
+    },
+        "title": "Fable.Node",
+        "description": "Fable bindings for node.js native modules.",
+        "link": "https://github.com/fable-compiler/fable-node",
+        "category": "library"
+    },
+    {
+        "title": "Fable.ReactGoogleMaps",
+        "description": "Fable bindings and helpers for react-google-map. Also contains bindings for plain Google maps api.",
+        "link": "https://github.com/fable-compiler/Fable.ReactGoogleMaps",
+        "category": "library"
     }
 ]
