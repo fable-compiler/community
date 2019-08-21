@@ -205,7 +205,7 @@
     },
     {
         "title": "Fable.FixedDataTable",
-        "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
+        "description": "Fable bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
         "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
     }
