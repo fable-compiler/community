@@ -318,12 +318,6 @@
         "category": "library"
     },
     {
-        "title": "HTML to Elmish",
-        "description": "Convert HTML snippets into code ready to be used in Elmish apps",
-        "link": "https://mangelmaxime.github.io/html-to-elmish/",
-        "category": "tool"
-    },
-    {
         "title": "JSON to Thoth",
         "description": "Convert JSON to F# code with Thoth decoders",
         "link": "https://nojaf.com/redhood/",
