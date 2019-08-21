@@ -334,5 +334,11 @@
         "description": "Femto is a CLI tool that automatically resolves npm packages used by Fable bindings",
         "link": "https://fable.io/blog/Introducing-Femto.html",
         "category": "tool"
-    }
+    },
+    {
+        "title": "Fable.JsonProvider",
+        "description": "Simple F# JSON Type Provider compatible with Fable",
+        "link": "https://github.com/fable-compiler/Fable.JsonProvider",
+        "category": "library"
+    }    
 ]
