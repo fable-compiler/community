@@ -8,6 +8,7 @@ type ResourceCategory =
     | Tool
     | Tutorial
     | Video
+    | Template
 
 let private stringHash (s: string) =
     let mutable h = 5381
