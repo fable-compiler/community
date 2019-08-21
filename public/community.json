@@ -340,5 +340,11 @@
         "description": "Dotnet CLI template to bootstrap SAFE projects,",
         "link": "https://github.com/SAFE-Stack/SAFE-template",
         "category": "template"
+    },
+    {
+        "title": "Zanaptak.TypedCssClasses",
+        "description": "A CSS class type provider for F# web development. Bring external stylesheet classes into your F# code as design-time discoverable compiler-verified properties.",
+        "link": "https://github.com/zanaptak/TypedCssClasses",
+        "category": "library"
     }    
 ]
