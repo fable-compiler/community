@@ -9148,10 +9148,13 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background: whitesmoke;
+}
+
 .elmish-app {
   font-size: 1.1em;
   font-weight: 200;
-  background: whitesmoke;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -9219,4 +9222,4 @@ body {
   color: dodgerblue !important;
 }
 
-/*# sourceMappingURL=style.220ee9cb5ae254671c47.css.map*/
+/*# sourceMappingURL=style.69b093bf4e458c395e4e.css.map*/
