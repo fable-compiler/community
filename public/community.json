@@ -144,7 +144,7 @@
         "category": "library"
     },
     {
-        "title": "Fulma-demo",
+        "title": "Fulma demo",
         "description": "Live demo mimicking a Q&A application, demonstrating how Fulma can be used and how it looks like",
         "link": "https://mangelmaxime.github.io/fulma-demo/",
         "category": "sample"
@@ -211,7 +211,7 @@
     },
     {
         "title": "Fable.FixedDataTable",
-        "description": "Fable bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
+        "description": "Fable bindings and Elmish helpers for fixed-data-table-2",
         "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
     },
@@ -232,5 +232,107 @@
         "description": "Fable bindings and helpers for react-google-map. Also contains bindings for plain Google maps api.",
         "link": "https://github.com/fable-compiler/Fable.ReactGoogleMaps",
         "category": "library"
+    },
+    {
+        "title": "Elmish",
+        "description": "Elm-like abstractions for F# apps",
+        "link": "https://elmish.github.io/",
+        "category": "library"
+    },
+    {
+        "title": "Elmish.Bridge",
+        "description": "Create client-server Fable-Elmish apps keeping a single mindset",
+        "link": "https://github.com/Nhowka/Elmish.Bridge",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Fetch",
+        "description": "Fable bindings for Browsers' Fetch API",
+        "link": "https://github.com/fable-compiler/fable-fetch",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Promise",
+        "description": "Fable bindings for JS Promise",
+        "link": "https://github.com/fable-compiler/fable-promise",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Date",
+        "description": "Utilities for working with Dates",
+        "link": "https://github.com/fable-compiler/fable-date",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Remoting",
+        "description": "Typed RPC client-server communication for Fable and .NET",
+        "link": "https://zaid-ajaj.github.io/Fable.Remoting/",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Mocha",
+        "description": "Fable testing library with mocha. Works in browser without any dependency.",
+        "link": "https://github.com/Zaid-Ajaj/Fable.Mocha",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MaterialUI",
+        "description": "Fable bindings for Material-UI",
+        "link": "https://mvsmal.github.io/fable-material-ui/",
+        "category": "library"
+    },
+    {
+        "title": "Elmish.Streams",
+        "description": "Extends Elmish with reactive (AsyncRx) query capabilities",
+        "link": "https://elmish-streams.readthedocs.io/en/latest/",
+        "category": "library"
+    },
+    {
+        "title": "Elmish.SweetAlert",
+        "description": "sweetalert2 integration in Fable, implemented as Elmish commands",
+        "link": "https://zaid-ajaj.github.io/Elmish.SweetAlert/",
+        "category": "library"
+    },
+    {
+        "title": "Elmish.Toastr",
+        "description": "Toastr (notification library) integration with Fable, implemented as Elmish commands",
+        "link": "https://zaid-ajaj.github.io/Elmish.Toastr/",
+        "category": "library"
+    },
+    {
+        "title": "Fable.SimpleJson",
+        "description": "A library for easily working with JSON in Fable projects",
+        "link": "https://github.com/Zaid-Ajaj/Fable.SimpleJson",
+        "category": "library"
+    },
+    {
+        "title": "Fable.SimpleXml",
+        "description": "A library for easily working with XML in Fable projects",
+        "link": "https://github.com/Zaid-Ajaj/Fable.SimpleXml",
+        "category": "library"
+    },
+    {
+        "title": "Fable.DateFunctions",
+        "description": "Binding for the date-fns library, implemented as 120+ extension methods for DateTime",
+        "link": "https://github.com/Zaid-Ajaj/Fable.DateFunctions",
+        "category": "library"
+    },
+    {
+        "title": "HTML to Elmish",
+        "description": "Convert HTML snippets into code ready to be used in Elmish apps",
+        "link": "https://mangelmaxime.github.io/html-to-elmish/",
+        "category": "tool"
+    },
+    {
+        "title": "JSON to Thoth",
+        "description": "Convert JSON to F# code with Thoth decoders",
+        "link": "https://nojaf.com/redhood/",
+        "category": "tool"
+    },    
+    {
+        "title": "Femto",
+        "description": "Femto is a CLI tool that automatically resolves npm packages used by Fable bindings",
+        "link": "https://fable.io/blog/Introducing-Femto.html",
+        "category": "tool"
     }
 ]
