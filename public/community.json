@@ -144,6 +144,12 @@
         "category": "library"
     },
     {
+        "title": "Fulma-demo",
+        "description": "Live demo mimicking a Q&A application, demonstrating how Fulma can be used and how it looks like",
+        "link": "https://mangelmaxime.github.io/fulma-demo/",
+        "category": "sample"
+    },
+    {
         "title": "Fable.SimpleHttp",
         "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill",
         "link": "https://github.com/Zaid-Ajaj/Fable.SimpleHttp",
