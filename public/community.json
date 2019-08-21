@@ -1,13 +1,151 @@
 [
     {
         "title": "Thoth.Json",
-        "description": "JSON serializer for Fable and .NET apps",
+        "description": "JSON serializer for Fable and .NET apps (this is the Fable version of it)",
         "link": "https://mangelmaxime.github.io/Thoth/json/v3.html",
         "category": "library"
     },
     {
+        "title": "Thoth.Json.Net",
+        "description": "JSON serializer for Fable and .NET apps (this is the .Net version of it)",
+        "link": "https://mangelmaxime.github.io/Thoth/json/v3.html#net-netcore-support",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Json.Giraffe",
+        "description": "Provide serialize compatible with Giraffe and Saturn, so you can enable enable automatic JSON serialization with Thoth in your responses",
+        "link": "https://mangelmaxime.github.io/Thoth/json/v3.html#giraffe",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Elmish.FormBuilder",
+        "description": "FormBuilder library making it easy to write Form in an Elmish application",
+        "link": "https://mangelmaxime.github.io/Thoth/elmish/FormBuilder.html",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Elmish.FormBuilder.BasicFields",
+        "description": "Basic field implementation for Thoth.Elmish.FormBuilder, it provide basic implementation for Checkbox, Input, Radio, Select, TextArea",
+        "link": "https://mangelmaxime.github.io/Thoth/elmish/FormBuilder.html",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Elmish.Debouncer",
+        "description": "Implements a debouncer module for use in Elmish application",
+        "link": "https://mangelmaxime.github.io/Thoth/elmish/debouncer.html",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Elmish.Toast",
+        "description": "Provides a Toast/Notification system for Elmish application",
+        "link": "https://mangelmaxime.github.io/Thoth/elmish/toast_docs.html",
+        "category": "library"
+    },
+    {
+        "title": "Thoth.Fetch",
+        "description": "Thoth.Fetch provides an easy to use API for working with Fable.Fetch and Thoth.Json",
+        "link": "https://github.com/thoth-org/Thoth.Fetch#thothfetch-",
+        "category": "library"
+    },
+    {
+        "title": "Html to Elmish",
+        "description": "Convert HTML code into Elmish/React code",
+        "link": "https://mangelmaxime.github.io/html-to-elmish/",
+        "category": "tool"
+    },
+    {
+        "title": "Fable.Leaflet",
+        "description": "Bindings for Leaflet API",
+        "link": "https://github.com/MangelMaxime/Fable.Leaflet",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Geojson",
+        "description": "Bindings for Geojson API",
+        "link": "https://github.com/MangelMaxime/Fable.Geojson",
+        "category": "library"
+    },
+    {
+        "title": "Fable.ReactLeaflet",
+        "description": "Bindings for react-leaflet API",
+        "link": "https://github.com/MangelMaxime/Fable.ReactLeaflet",
+        "category": "library"
+    },
+    {
+        "title": "Fable.FontAwesome",
+        "description": "Provide a wrapper around Font Awesome",
+        "link": "https://fulma.github.io/Fulma/#fable-fontawesome",
+        "category": "library"
+    },
+    {
+        "title": "Fable.FontAwesome.Free",
+        "description": "Bindings for Font Awesome free icons",
+        "link": "https://fulma.github.io/Fulma/#fable-fontawesome",
+        "category": "library"
+    },
+    {
+        "title": "Fable.FontAwesome.Pro",
+        "description": "Bindings for Font Awesome pro icons",
+        "link": "https://fulma.github.io/Fulma/#fable-fontawesome",
+        "category": "library"
+    },
+    {
+        "title": "Fulma",
+        "description": "Fulma provides a wrapper around Bulma 0.7.1, an open source CSS framework",
+        "link": "https://fulma.github.io/Fulma/",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Calendar",
+        "description": "Provides a wrapper around bulma-calendar for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/calendar",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Checkradio",
+        "description": "Provides a wrapper around bulma-checkradio for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/checkradio",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Divider",
+        "description": "Provides a wrapper around bulma-divider for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/divider",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.PageLoader",
+        "description": "Provides a wrapper around bulma-pageloader for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/pageloader",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Quickview",
+        "description": "Provides a wrapper around bulma-quickview for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/quickview",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Slider",
+        "description": "Provides a wrapper around bulma-slider for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/slider",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Switch",
+        "description": "Provides a wrapper around bulma-switch for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/switch",
+        "category": "library"
+    },
+    {
+        "title": "Fulma.Extensions.Wikiki.Tooltip",
+        "description": "Provides a wrapper around bulma-tooltip for Elmish apps",
+        "link": "https://fulma.github.io/Fulma/#fulma-extensions/tooltip",
+        "category": "library"
+    },
+    {
         "title": "Fable.SimpleHttp",
-        "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill.",
+        "description": "Http requests made simple, compatible with IE 11 without a fetch polyfill",
         "link": "https://github.com/Zaid-Ajaj/Fable.SimpleHttp",
         "category": "library"
     },
@@ -15,6 +153,60 @@
         "title": "Fable.Reactstrap",
         "description": "Easy to use React Bootstrap 4 components with Fable",
         "link": "https://nojaf.github.io/fable-reactstrap/",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Electron",
+        "description": "Fable bindings for Electron",
+        "link": "https://github.com/fable-compiler/fable-electron",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MaterialUI.Icons",
+        "description": "Fable bindings for @material-ui/icons",
+        "link": "https://github.com/cmeeren/Fable.MaterialUI.Icons",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MaterialUI.MaterialDesignIcons",
+        "description": "Fable bindings for mdi-material-ui",
+        "link": "https://github.com/cmeeren/Fable.MaterialUI.MaterialDesignIcons",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.MatchSorter",
+        "description": "Fable bindings for match-sorter",
+        "link": "https://github.com/cmeeren/Fable.Import.MatchSorter",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.Downshift",
+        "description": "Fable bindings for downshift",
+        "link": "https://github.com/cmeeren/Fable.Import.Downshift",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Import.AutosuggestHighlight",
+        "description": "Fable bindings for autosuggest-highlight",
+        "link": "https://github.com/cmeeren/Fable.Import.AutosuggestHighlight",
+        "category": "library"
+    },
+    {
+        "title": "Flora.CssProvider",
+        "description": "Type provider for providing css class names",
+        "link": "https://github.com/Fable-Fauna/Fable.Flora",
+        "category": "library"
+    },
+    {
+        "title": "GreenPrint",
+        "description": "Fable Elmish wrapper around blueprint js",
+        "link": "https://github.com/kunjee17/GreenPrint",
+        "category": "library"
+    },
+    {
+        "title": "Fable.FixedDataTable",
+        "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
+        "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
     }
 ]
