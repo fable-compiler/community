@@ -221,6 +221,7 @@
         "link": "https://github.com/cmeeren/fable-elmish-electron-material-ui-demo",
         "category": "sample"
     },
+    {
         "title": "Fable.Node",
         "description": "Fable bindings for node.js native modules.",
         "link": "https://github.com/fable-compiler/fable-node",
