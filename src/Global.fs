@@ -42,5 +42,5 @@ type Model =
 
 type Msg =
     | ToggleBurger
-    | ResourcesLoaded of string
+    | ResourcesLoaded of Resource list
     | SearchTextUdpdated of string

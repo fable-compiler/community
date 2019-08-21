@@ -1,27 +1,17 @@
 module App
 
-(**
- The famous Increment/Decrement ported from Elm.
- You can find more info about Elmish architecture and samples at https://elmish.github.io/
-*)
-
 open System.Text.RegularExpressions
 open Elmish
 open Elmish.React
+open Fable.Core
 open Fable.React
 open Fable.React.Props
 open Fable.SimpleHttp
 open Fulma
+open Fable.FontAwesome
 open Global
 
-let init(): Model * Cmd<Msg> =
-    let model = Model.Empty
-    let cmd =
-        async {
-            let! (_, json) = Http.get "community.json"
-            return ResourcesLoaded json
-        } |> Cmd.OfAsync.result
-    model, cmd
+let [<Literal>] GITHUB_JSON = "https://raw.githubusercontent.com/fable-compiler/community/master/public/community.json"
 
 let shuffle (org:_ list) =
     let rng = System.Random()
@@ -35,6 +25,23 @@ let shuffle (org:_ list) =
         arr
     [|0..max|] |> Array.fold randomSwap arr |> Array.toList
 
+let init(): Model * Cmd<Msg> =
+    let model = Model.Empty
+    let cmd =
+        let msg = Resource.FromJsonArray >> shuffle >> ResourcesLoaded
+        async {
+            #if !DEBUG
+            try
+                let! (_, json) = Http.get GITHUB_JSON
+                return msg json
+            with ex ->
+                printfn "Cannot get JSON from Github, using deployed version: %s" ex.Message
+            #endif
+                let! (_, json) = Http.get "community.json"
+                return msg json
+        } |> Cmd.OfAsync.result
+    model, cmd
+
 // TODO: Truncate?
 let resetVisibleResources (model:Model) =
     { model with VisibleResources = model.Resources }
@@ -43,8 +50,7 @@ let update (msg:Msg) (model:Model) =
     match msg with    
     | ToggleBurger ->
         { model with BurgerOpen = not model.BurgerOpen }, Cmd.none
-    | ResourcesLoaded json ->
-        let resources = Resource.FromJsonArray json |> shuffle
+    | ResourcesLoaded resources ->
         { model with Resources = resources }
         |> resetVisibleResources, Cmd.none
     | SearchTextUdpdated text ->
@@ -97,15 +103,23 @@ let searchBox (model:Model) dispatch =
             ]
         ]
 
-let resourceItem (r: Resource) =
-    div [ Class "resource-item"
-          Key (string r.hash) ]
-        [ Heading.h5 [] [
-            a [Href r.link] [str r.title]
-            str "  "
-            Tag.tag [ Tag.Color IsSuccess ] [str <| r.category.ToString().ToLower()]
-          ]
-          Heading.h6 [Heading.IsSubtitle] [str r.description] ]
+let resourceItem =
+    FunctionComponent.Of((fun (p: {| key: string; resource: Resource|}) ->
+        let reportLink =
+            "https://github.com/fable-compiler/community/issues/new?title="
+            + JS.encodeURIComponent(p.resource.title + " is obsolete")
+        div [ Class "resource-item" ]
+            [ Heading.h5 [] [
+                a [Href p.resource.link] [str p.resource.title]
+                str "  "
+                Tag.tag [ Tag.Color IsSuccess ] [str <| p.resource.category.ToString().ToLower()]
+                str " "
+                a [Href reportLink; Target "_blank"]
+                  [Fa.i [ Fa.Regular.TrashAlt; Fa.Size Fa.FaExtraSmall ] []]
+              ]
+              Heading.h6 [Heading.IsSubtitle] [str p.resource.description] ]),
+        displayName = "Resource",
+        memoizeWith = fun p1 p2 -> p1.key = p2.key)          
 
 let view (model:Model) dispatch =
   fragment []
@@ -123,11 +137,10 @@ let view (model:Model) dispatch =
                             a [Href "https://github.com/fable-compiler/community/edit/master/public/community.json"] [str "add your awesome project"]
                             str "."
                         ]
-
                     ]
                     searchBox model dispatch
-                    ul [Class "resource-list"]
-                        (List.map resourceItem model.VisibleResources)
+                    ul [Class "resource-list"] (model.VisibleResources |> List.map (fun r ->
+                        resourceItem {| resource = r; key = string r.hash|}))
                 ]
             ]
         ]
