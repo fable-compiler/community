@@ -20,10 +20,13 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background: $body-background;
+}
+
 .elmish-app {
   font-size: 1.1em;
   font-weight: 200;
-  background: $body-background;
   height: 100%;
   display: flex;
   flex-direction: column;
