@@ -52,5 +52,23 @@
         "description": "Fable bindings for autosuggest-highlight",
         "link": "https://github.com/cmeeren/Fable.Import.AutosuggestHighlight",
         "category": "library"
+    },
+    {
+        "title": "Flora.CssProvider",
+        "description": "Type provider for providing css class names",
+        "link": "https://github.com/Fable-Fauna/Fable.Flora",
+        "category": "library"
+    },
+    {
+        "title": "GreenPrint",
+        "description": "Fable Elmish wrapper around blueprint js",
+        "link": "https://github.com/kunjee17/GreenPrint",
+        "category": "library"
+    },
+    {
+        "title": "Fable.FixedDataTable",
+        "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
+        "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
+        "category": "library"
     }
 ]
