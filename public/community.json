@@ -208,5 +208,17 @@
         "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
         "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
+    },
+    {
+        "title": "Fable.Node",
+        "description": "Fable bindings for node.js native modules.",
+        "link": "https://github.com/fable-compiler/fable-node",
+        "category": "library"
+    },
+    {
+        "title": "Fable.ReactGoogleMaps",
+        "description": "Fable bindings and helpers for react-google-map. Also contains bindings for plain Google maps api.",
+        "link": "https://github.com/fable-compiler/Fable.ReactGoogleMaps",
+        "category": "library"
     }
 ]
