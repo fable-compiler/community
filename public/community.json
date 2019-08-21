@@ -208,5 +208,11 @@
         "description": "able bindings and elmish helpers for https://github.com/schrodinger/fixed-data-table-2",
         "link": "https://github.com/Fable-Fauna/Fable.FixedDataTable",
         "category": "library"
+    },
+    {
+        "title": "Fable-Elmish-Electron-Material-UI demo",
+        "description": "Complete boilerplate for Electron apps using Fable and Elmish with hot module reloading, time-travel debugging, etc.",
+        "link": "https://github.com/cmeeren/fable-elmish-electron-material-ui-demo",
+        "category": "sample"
     }
 ]
