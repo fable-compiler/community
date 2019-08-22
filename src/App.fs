@@ -106,10 +106,11 @@ let searchBox (model:Model) dispatch =
 let resourceItem =
     FunctionComponent.Of((fun (p: {| key: string; resource: Resource|}) ->
         let reportLink =
-            "https://github.com/fable-compiler/community/issues/new?title="
-            + JS.encodeURIComponent(p.resource.title + " is obsolete")
+            "https://github.com/fable-compiler/community/issues/new"
+            + "?title=" + JS.encodeURIComponent(p.resource.title + " needs edit")
+            + "&body=" + JS.encodeURIComponent("Please explain the reason.")
+
         let category = p.resource.category.ToString().ToLower()
-            
             
         div [ Class "resource-item" ]
             [ Heading.h5 [] [
@@ -118,7 +119,7 @@ let resourceItem =
                 Tag.tag [ Tag.CustomClass (sprintf "is-%s" category)] [str category ]
                 str " "
                 a [Href reportLink; Target "_blank"]
-                  [Fa.i [ Fa.Regular.TrashAlt; Fa.Size Fa.FaExtraSmall ] []]
+                  [Fa.i [ Fa.Solid.PencilAlt; Fa.Size Fa.FaExtraSmall ] []]
               ]
               Heading.h6 [Heading.IsSubtitle] [str p.resource.description] ]),
         displayName = "Resource",
