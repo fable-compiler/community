@@ -97,3 +97,29 @@ body {
     }
   }
 }
+
+.tag {
+  &.is-tool {
+    background-color: #36d7b7;
+    color: whitesmoke;
+  }
+  &.is-library {
+    background-color: #52b3d9;
+    color: whitesmoke;
+  }
+  &.is-tutorial {
+    background-color: #c0392b;
+    color: whitesmoke;
+  }
+  &.is-video {
+    background-color: #fef160;
+  }
+  &.is-template {
+    background-color: #947cb0;
+    color: whitesmoke;
+  }
+  &.is-sample {
+    background-color: #f5ab35;
+    color: whitesmoke;
+  }
+}
