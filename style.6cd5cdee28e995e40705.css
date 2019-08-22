@@ -9222,4 +9222,28 @@ body {
   color: dodgerblue !important;
 }
 
-/*# sourceMappingURL=style.69b093bf4e458c395e4e.css.map*/
+.tag.is-tool {
+  background-color: #36d7b7;
+  color: whitesmoke;
+}
+.tag.is-library {
+  background-color: #52b3d9;
+  color: whitesmoke;
+}
+.tag.is-tutorial {
+  background-color: #c0392b;
+  color: whitesmoke;
+}
+.tag.is-video {
+  background-color: #fef160;
+}
+.tag.is-template {
+  background-color: #947cb0;
+  color: whitesmoke;
+}
+.tag.is-sample {
+  background-color: #f5ab35;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=style.6cd5cdee28e995e40705.css.map*/

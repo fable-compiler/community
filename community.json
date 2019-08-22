@@ -318,12 +318,6 @@
         "category": "library"
     },
     {
-        "title": "HTML to Elmish",
-        "description": "Convert HTML snippets into code ready to be used in Elmish apps",
-        "link": "https://mangelmaxime.github.io/html-to-elmish/",
-        "category": "tool"
-    },
-    {
         "title": "JSON to Thoth",
         "description": "Convert JSON to F# code with Thoth decoders",
         "link": "https://nojaf.com/redhood/",
@@ -334,5 +328,23 @@
         "description": "Femto is a CLI tool that automatically resolves npm packages used by Fable bindings",
         "link": "https://fable.io/blog/Introducing-Femto.html",
         "category": "tool"
-    }
+    },
+    {
+        "title": "Fable.JsonProvider",
+        "description": "Simple F# JSON Type Provider compatible with Fable",
+        "link": "https://github.com/fable-compiler/Fable.JsonProvider",
+        "category": "library"
+    },
+    {
+        "title": "SAFE template",
+        "description": "Dotnet CLI template to bootstrap SAFE projects,",
+        "link": "https://github.com/SAFE-Stack/SAFE-template",
+        "category": "template"
+    },
+    {
+        "title": "Zanaptak.TypedCssClasses",
+        "description": "A CSS class type provider for F# web development. Bring external stylesheet classes into your F# code as design-time discoverable compiler-verified properties.",
+        "link": "https://github.com/zanaptak/TypedCssClasses",
+        "category": "library"
+    }    
 ]
