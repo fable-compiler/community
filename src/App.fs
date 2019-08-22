@@ -108,11 +108,14 @@ let resourceItem =
         let reportLink =
             "https://github.com/fable-compiler/community/issues/new?title="
             + JS.encodeURIComponent(p.resource.title + " is obsolete")
+        let category = p.resource.category.ToString().ToLower()
+            
+            
         div [ Class "resource-item" ]
             [ Heading.h5 [] [
                 a [Href p.resource.link] [str p.resource.title]
                 str "  "
-                Tag.tag [ Tag.Color IsSuccess ] [str <| p.resource.category.ToString().ToLower()]
+                Tag.tag [ Tag.CustomClass (sprintf "is-%s" category)] [str category ]
                 str " "
                 a [Href reportLink; Target "_blank"]
                   [Fa.i [ Fa.Regular.TrashAlt; Fa.Size Fa.FaExtraSmall ] []]
