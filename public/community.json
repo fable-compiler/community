@@ -346,5 +346,41 @@
         "description": "A CSS class type provider for F# web development. Bring external stylesheet classes into your F# code as design-time discoverable compiler-verified properties.",
         "link": "https://github.com/zanaptak/TypedCssClasses",
         "category": "library"
-    }    
+    },
+    {
+        "title": "From F# to JavaScript with Fable",
+        "description" : "The recording of our August 20 webinar, From F# to JavaScript with Fable, with Florian Verdonck.",
+        "link": "https://blog.jetbrains.com/dotnet/2019/08/21/f-javascript-fable-webinar-recording/",
+        "category": "video"
+    },
+    {
+        "title": "Fable.Browser",
+        "description": "Fable bindings for Browser Web APIs (Blob, Dom, Event, Performance, Url, WebSocket, WebStorage, XMLHttpRequest, Svg, Css, Worker, Geolocation, Navigator).",
+        "link": "https://github.com/fable-compiler/fable-browser",
+        "category": "library"
+    },
+    {
+        "title": "Fable 2 samples",
+        "description": "This is the repository hosting samples for quite all your Fable needs. The best move to start a new Fable project is to clone this repo and then copy/paste one of the projects.",
+        "link": "https://github.com/fable-compiler/fable2-samples",
+        "category": "sample"
+    },
+    {
+        "title": "Fable.React",
+        "description": "Fable bindings and helpers for React projects.",
+        "link": "https://github.com/fable-compiler/fable-react",
+        "category": "library"
+    },
+    {
+        "title": "Fable.RegexProvider",
+        "description": "Simple F# Regex Type Provider compatible with Fable.",
+        "link": "https://github.com/fable-compiler/Fable.RegexProvider",
+        "category": "library"
+    },
+    {
+        "title": "ts2fable",
+        "description":"Fable parser for TypeScript declaration files.",
+        "link": "https://fable.io/ts2fable/",
+        "category": "tool"
+    }
 ]
