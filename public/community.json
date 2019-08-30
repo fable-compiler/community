@@ -382,5 +382,11 @@
         "description":"Fable parser for TypeScript declaration files.",
         "link": "https://fable.io/ts2fable/",
         "category": "tool"
+    },
+    {
+        "title": "Fable.PolyglotProvider",
+        "description": "Type Provider for https://airbnb.io/polyglot.js/. Use internationalization json files to generate strongly typed objects with support for pluralization and string template.",
+        "link": "https://github.com/Titaye/Fable.PolyglotProvider",
+        "category": "library"        
     }
 ]
