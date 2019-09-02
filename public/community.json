@@ -388,5 +388,11 @@
         "description": "Type Provider for https://airbnb.io/polyglot.js/. Use internationalization json files to generate strongly typed objects with support for pluralization and string template.",
         "link": "https://github.com/Titaye/Fable.PolyglotProvider",
         "category": "library"        
+    },
+    {
+        "title": "ElmishToReact",
+        "description": "Wrap a Fable Elmish program as a React component",
+        "link": "https://github.com/DouglasConnect/ElmishToReact",
+        "category": "library"        
     }
 ]
