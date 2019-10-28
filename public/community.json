@@ -406,8 +406,8 @@
         "description": "F# implementation for Fable of Elm's RemoteData package. A package that has a DU representing a remote data request and functions to handle those.",
         "link": "https://github.com/thitemple/fable-remotedata",
         "category": "library"
-    }
-        {
+    },
+    {
         "title": "Fable.Polaris",
         "description": "Fable/F# bindings for Shopify's Polaris react component library.",
         "link": "https://github.com/klanthier/fable-polaris",
