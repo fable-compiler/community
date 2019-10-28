@@ -394,5 +394,17 @@
         "description": "Wrap a Fable Elmish program as a React component",
         "link": "https://github.com/DouglasConnect/ElmishToReact",
         "category": "library"        
+    },
+    {
+        "title": "RealWorld Fable",
+        "description": "A RealWorld example app using Fable and Elmish. An SPA app with CRUD, routing, security, API calls and tests",
+        "link": "https://github.com/thitemple/real-world-fable",
+        "category": "sample"
+    },
+    {
+        "title": "Fable.RemoteData",
+        "description": "F# implementation for Fable of Elm's RemoteData package. A package that has a DU representing a remote data request and functions to handle those.",
+        "link": "https://github.com/thitemple/fable-remotedata",
+        "category": "library"
     }
 ]
