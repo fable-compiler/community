@@ -406,5 +406,11 @@
         "description": "F# implementation for Fable of Elm's RemoteData package. A package that has a DU representing a remote data request and functions to handle those.",
         "link": "https://github.com/thitemple/fable-remotedata",
         "category": "library"
+    },
+	{
+        "title": "Semuserable.Fable.Templates",
+        "description": "Minimal Fable templates",
+        "link": "https://github.com/semuserable/Semuserable.Fable.Templates",
+        "category": "template"
     }
 ]
