@@ -407,7 +407,13 @@
         "link": "https://github.com/thitemple/fable-remotedata",
         "category": "library"
     },
-	{
+    {
+        "title": "Fable.Polaris",
+        "description": "Fable/F# bindings for Shopify's Polaris react component library.",
+        "link": "https://github.com/klanthier/fable-polaris",
+        "category": "library"
+    },
+	  {
         "title": "Semuserable.Fable.Templates",
         "description": "Minimal Fable templates",
         "link": "https://github.com/semuserable/Semuserable.Fable.Templates",
