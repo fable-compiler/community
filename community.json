@@ -413,10 +413,46 @@
         "link": "https://github.com/klanthier/fable-polaris",
         "category": "library"
     },
-	  {
+    {
         "title": "Semuserable.Fable.Templates",
         "description": "Minimal Fable templates",
         "link": "https://github.com/semuserable/Semuserable.Fable.Templates",
         "category": "template"
+    },
+    {
+        "title": "Feliz",
+        "description": "A fresh retake of the base React DSL and a collection of high-quality components used to build React applications, optimized for happiness.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Plotly",
+        "description": "Feliz-style Fable bindings for plotly.js",
+        "link": "https://github.com/Shmew/Feliz.Plotly",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.MaterialUI",
+        "description": "Feliz-style Fable bindings for Material-UI.",
+        "link": "https://github.com/cmeeren/Feliz.MaterialUI",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.MaterialUI.Pickers",
+        "description": "Feliz-style Fable bindings for Material-UI Pickers.",
+        "link": "https://github.com/Shmew/Feliz.MaterialUI.Pickers",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.MaterialUI.MaterialTable",
+        "description": "Feliz-style Fable bindings for material-table.",
+        "link": "https://github.com/Shmew/Feliz.MaterialUI.MaterialTable",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.SweetAlert",
+        "description": "Feliz-style Fable bindings for SweetAlert2.",
+        "link": "https://github.com/Shmew/Feliz.SweetAlert",
+        "category": "library"
     }
 ]
