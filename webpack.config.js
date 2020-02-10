@@ -11,6 +11,7 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const execSync = require('child_process').execSync;
 
 var CONFIG = {
     // The tags to include the generated JS and CSS will be automatically injected in the HTML template
@@ -52,6 +53,17 @@ var commonPlugins = [
         template: resolve(CONFIG.indexHtmlTemplate)
     })
 ];
+
+var isGitPod = process.env.GITPOD_INSTANCE_ID !== undefined;
+
+function getDevServerUrl() {
+    if (isGitPod) {
+        const url = execSync('gp url 8080');
+        return url.toString().trim();
+    } else {
+        return `http://localhost:${CONFIG.devServerPort}`;
+    }
+}
 
 module.exports = {
     // In development, split the JavaScript and CSS files in order to
@@ -98,13 +110,15 @@ module.exports = {
     },
     // Configuration for webpack-dev-server
     devServer: {
+        public: getDevServerUrl(),
         publicPath: '/',
         contentBase: resolve(CONFIG.assetsDir),
         host: '0.0.0.0',
+        allowedHosts: ['localhost', '.gitpod.io'],
         port: CONFIG.devServerPort,
         proxy: CONFIG.devServerProxy,
         hot: true,
-        inline: true
+        inline: true,
     },
     // - fable-loader: transforms F# into JS
     // - babel-loader: transforms JS to old syntax (compatible with old browsers)
