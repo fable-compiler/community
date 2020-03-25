@@ -466,5 +466,11 @@
         "description": "Fable binding for React.Gesture",
         "link": "https://github.com/albertwoo/Fun.Animation",
         "category": "library"
+    },
+    {
+        "title": "Feliz.Bulma",
+        "description": "Bulma UI wrapper for amazing Feliz DSL.",
+        "link": "https://github.com/Dzoukr/Feliz.Bulma",
+        "category": "library"
     }
 ]
