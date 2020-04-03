@@ -472,5 +472,11 @@
         "description": "Bulma UI wrapper for amazing Feliz DSL.",
         "link": "https://github.com/Dzoukr/Feliz.Bulma",
         "category": "library"
+    },
+    {
+        "title": "Fable.Jester",
+        "description": "Fable bindings for jest and friends for delightful Fable testing.",
+        "link": "https://github.com/Shmew/Fable.Jester",
+        "category": "library"
     }
 ]
