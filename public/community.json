@@ -456,6 +456,12 @@
         "category": "library"
     },
     {
+        "title": "Feliz.UseWorker",
+        "description": "Web workers in Fable made easy, exposed as React hooks and Elmish commands.",
+        "link": "https://github.com/Shmew/Feliz.UseWorker",
+        "category": "library"
+    },
+    {
         "title": "Fun.ReactSpring",
         "description": "Fable binding for React.Spring",
         "link": "https://github.com/albertwoo/Fun.Animation",
