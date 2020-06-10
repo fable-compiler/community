@@ -484,5 +484,11 @@
         "description": "Fable bindings for jest and friends for delightful Fable testing.",
         "link": "https://github.com/Shmew/Fable.Jester",
         "category": "library"
+    },
+    {
+        "title": "Fable.React.Flatpickr",
+        "description": "Fable binding for react-flatpickr that is ready to use within Elmish applications",
+        "link": "https://github.com/Zaid-Ajaj/Fable.React.Flatpickr",
+        "category": "library"
     }
 ]
