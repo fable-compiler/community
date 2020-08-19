@@ -490,5 +490,11 @@
         "description": "Fable binding for react-flatpickr that is ready to use within Elmish applications",
         "link": "https://github.com/Zaid-Ajaj/Fable.React.Flatpickr",
         "category": "library"
+    },
+    {
+        "title": "Fable.GroupingPanel",
+        "description": "A computation expression for grouping data into collapsible panels.",
+        "link": "https://github.com/JordanMarr/Fable.GroupingPanel",
+        "category": "library"
     }
 ]
