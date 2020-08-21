@@ -496,5 +496,11 @@
         "description": "A computation expression for grouping data into collapsible panels.",
         "link": "https://github.com/JordanMarr/Fable.GroupingPanel",
         "category": "library"
+    },
+    {
+        "title": "Fable.React.Autocomplete",
+        "description": "Fable binding for react-autocomplete that is ready to use within Elmish applications.",
+        "link": "https://github.com/davedawkins/Fable.React.Autocomplete",
+        "category": "library"
     }
 ]
