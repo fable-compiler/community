@@ -502,5 +502,17 @@
         "description": "Fable binding for react-autocomplete that is ready to use within Elmish applications.",
         "link": "https://github.com/davedawkins/Fable.React.Autocomplete",
         "category": "library"
+    },
+    {
+        "title": "Fable.AntD",
+        "description": "Ant Design bindings for Fable React/Elmish applications",
+        "link": "https://github.com/uxsoft/Fable.AntD",
+        "category": "library"
+    },
+    {
+        "title": "Fable.MomentJs",
+        "description": "moment.js bindings for Fable React/Elmish applications",
+        "link": "https://github.com/uxsoft/Fable.MomentJs",
+        "category": "library"
     }
 ]
