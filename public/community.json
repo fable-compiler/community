@@ -514,7 +514,7 @@
         "description": "moment.js bindings for Fable React/Elmish applications",
         "link": "https://github.com/uxsoft/Fable.MomentJs",
         "category": "library"
-    }
+    },
     {
         "title": "Fable SignalR Client Demo",
         "description": "Demo for connecting to SignalR via Fable/Elmish through JS Interop",
