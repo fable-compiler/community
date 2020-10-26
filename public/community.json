@@ -426,9 +426,15 @@
         "category": "library"
     },
     {
-        "title": "Feliz.Plotly",
-        "description": "Feliz-style Fable bindings for plotly.js",
-        "link": "https://github.com/Shmew/Feliz.Plotly",
+        "title": "Feliz.Bulma",
+        "description": "Bulma UI wrapper for the amazing Feliz DSL.",
+        "link": "https://github.com/Dzoukr/Feliz.Bulma",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Delay",
+        "description": "Adds easy to use delayed rendering.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
         "category": "library"
     },
     {
@@ -450,15 +456,75 @@
         "category": "library"
     },
     {
+        "title": "Feliz.PigeonMaps",
+        "description": "pigeon-maps bindings based on the Feliz API.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Plotly",
+        "description": "Feliz-style Fable bindings for plotly.js",
+        "link": "https://github.com/Shmew/Feliz.Plotly",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Popover",
+        "description": "react-popover bindings based on the Feliz API.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Recharts",
+        "description": "Recharts bindings based on the Feliz API.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Recoil",
+        "description": "Fable bindings in Feliz style for Facebook's experimental state management library recoil.",
+        "link": "https://github.com/Shmew/Feliz.Recoil",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.RoughViz",
+        "description": "Feliz binding for the rough-viz library.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Router",
+        "description": "An Elmish router that is focused, powerful and extremely easy to use.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz.Router",
+        "category": "library"
+    },
+    {
         "title": "Feliz.SweetAlert",
         "description": "Feliz-style Fable bindings for SweetAlert2.",
         "link": "https://github.com/Shmew/Feliz.SweetAlert",
         "category": "library"
     },
     {
+        "title": "Feliz.UseDeferred",
+        "description": "Hooks for dead-simple data fetching with Feliz.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.UseElmish",
+        "description": "Hooks to build Elmish components as React components.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
+        "category": "library"
+    },
+    {
         "title": "Feliz.UseListener",
         "description": "React hooks for easy event listener management.",
         "link": "https://github.com/Shmew/Feliz.UseListener",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.UseMediaQuery",
+        "description": "Hooks to build responsive websites.",
+        "link": "https://github.com/Zaid-Ajaj/Feliz",
         "category": "library"
     },
     {
@@ -489,12 +555,6 @@
         "title": "Fun.ReactGesture",
         "description": "Fable binding for React.Gesture",
         "link": "https://github.com/albertwoo/Fun.Animation",
-        "category": "library"
-    },
-    {
-        "title": "Feliz.Bulma",
-        "description": "Bulma UI wrapper for amazing Feliz DSL.",
-        "link": "https://github.com/Dzoukr/Feliz.Bulma",
         "category": "library"
     },
     {
