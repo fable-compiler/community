@@ -456,9 +456,27 @@
         "category": "library"
     },
     {
+        "title": "Feliz.UseListener",
+        "description": "React hooks for easy event listener management.",
+        "link": "https://github.com/Shmew/Feliz.UseListener",
+        "category": "library"
+    },
+    {
         "title": "Feliz.UseWorker",
         "description": "Web workers in Fable made easy, exposed as React hooks and Elmish commands.",
         "link": "https://github.com/Shmew/Feliz.UseWorker",
+        "category": "library"
+    },
+    {
+        "title": "Fable.SignalR",
+        "description": "A functional type-safe wrapper for SignalR and Fable.",
+        "link": "https://github.com/Shmew/Fable.SignalR",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Extras",
+        "description": "A more functional construct on-top of Fable.Core",
+        "link": "https://github.com/Shmew/Fable.Extras",
         "category": "library"
     },
     {
