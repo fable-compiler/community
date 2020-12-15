@@ -602,7 +602,7 @@
     {
         "title": "Map Data Visualisation with F# and Fable",
         "description": "This walkthrough shows how to quickly and easily visualise data on an interactive map using F#, Leaflet and the SAFE Stack",
-        "link": "https://markpattison.net/mapdemo/",
+        "link": "http://markpattison.net/mapdemo/",
         "category": "sample"
     },
     {
