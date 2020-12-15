@@ -322,7 +322,7 @@
         "description": "Convert JSON to F# code with Thoth decoders",
         "link": "https://nojaf.com/redhood/",
         "category": "tool"
-    },    
+    },
     {
         "title": "Femto",
         "description": "Femto is a CLI tool that automatically resolves npm packages used by Fable bindings",
@@ -349,7 +349,7 @@
     },
     {
         "title": "From F# to JavaScript with Fable",
-        "description" : "The recording of our August 20 webinar, From F# to JavaScript with Fable, with Florian Verdonck.",
+        "description": "The recording of our August 20 webinar, From F# to JavaScript with Fable, with Florian Verdonck.",
         "link": "https://blog.jetbrains.com/dotnet/2019/08/21/f-javascript-fable-webinar-recording/",
         "category": "video"
     },
@@ -379,7 +379,7 @@
     },
     {
         "title": "ts2fable",
-        "description":"Fable parser for TypeScript declaration files.",
+        "description": "Fable parser for TypeScript declaration files.",
         "link": "https://fable.io/ts2fable/",
         "category": "tool"
     },
@@ -387,13 +387,13 @@
         "title": "Fable.PolyglotProvider",
         "description": "Type Provider for https://airbnb.io/polyglot.js/. Use internationalization json files to generate strongly typed objects with support for pluralization and string template.",
         "link": "https://github.com/Titaye/Fable.PolyglotProvider",
-        "category": "library"        
+        "category": "library"
     },
     {
         "title": "ElmishToReact",
         "description": "Wrap a Fable Elmish program as a React component",
         "link": "https://github.com/DouglasConnect/ElmishToReact",
-        "category": "library"        
+        "category": "library"
     },
     {
         "title": "RealWorld Fable",
@@ -598,6 +598,23 @@
         "description": "Demo for connecting to SignalR via Fable/Elmish through JS Interop",
         "link": "https://github.com/steelcityrkp/fable-signalr-minimal",
         "category": "sample"
+    },
+    {
+        "title": "Map Data Visualisation with F# and Fable",
+        "description": "This walkthrough shows how to quickly and easily visualise data on an interactive map using F#, Leaflet and the SAFE Stack",
+        "link": "https://markpattison.net/mapdemo/",
+        "category": "sample"
+    },
+    {
+        "title": "Fable.React.DrawingCanvas",
+        "description": "Fable React wrapper for canvas that provides computation expressions for declarative drawing",
+        "link": "https://github.com/davedawkins/Fable.React.DrawingCanvas",
+        "category": "library"
+    },
+    {
+        "title": "PcgRandom",
+        "description": "A PCG pseudorandom number generator implementation for .NET and Fable. PCG is a family of simple fast space-efficient statistically good algorithms for random number generation.",
+        "link": "https://github.com/zanaptak/PcgRandom",
+        "category": "library"
     }
-    
 ]
