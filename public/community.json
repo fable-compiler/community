@@ -616,5 +616,23 @@
         "description": "A PCG pseudorandom number generator implementation for .NET and Fable. PCG is a family of simple fast space-efficient statistically good algorithms for random number generation.",
         "link": "https://github.com/zanaptak/PcgRandom",
         "category": "library"
+    },
+    {
+        "title": "Full stack bingo app",
+        "description": "A full stack bingo app using fable SignalR akka.net giraffe.",
+        "link": "https://github.com/chestercodes/bingo",
+        "category": "sample"
+    },
+    {
+        "title": "Basic fable SignalR giraffe implementation",
+        "description": "A basic setup of fable SignalR giraffe.",
+        "link": "https://github.com/chestercodes/fable-signalr-giraffe",
+        "category": "sample"
+    },
+    {
+        "title": "Serverless app with fable and AWS Lambda",
+        "description": "A serverless project basic app that uses fable and a nodejs AWS Lambda.",
+        "link": "https://github.com/chestercodes/fable-aws-serverless",
+        "category": "sample"
     }
 ]
