@@ -1,5 +1,17 @@
 [
     {
+        "title": "The Gamma",
+        "description": "Tools for creating open data visualisations that empower the reader to actively engage and explore data further",
+        "link": "https://github.com/the-gamma",
+        "category": "library"
+    },
+    {
+        "title": "Coeffects: Context-aware programming languages",
+        "description": "Tomas Petricek's PhD research project. Ok, this is Funscript, not Fable, but it's awesome too!",
+        "link": "http://tomasp.net/coeffects",
+        "category": "sample"
+    },    
+    {
         "title": "Thoth.Json",
         "description": "JSON serializer for Fable and .NET apps (this is the Fable version of it)",
         "link": "https://mangelmaxime.github.io/Thoth/json/v3.html",
