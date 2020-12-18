@@ -634,5 +634,17 @@
         "description": "A serverless project basic app that uses fable and a nodejs AWS Lambda.",
         "link": "https://github.com/chestercodes/fable-aws-serverless",
         "category": "sample"
+    },
+    {
+        "title": "Commodore 64 BASIC",
+        "description": "Tomas Petricek interactive essay, source code for the parser can be found at https://github.com/tpetricek/basic",
+        "link": "http://tomasp.net/commodore64",
+        "category": "sample"
+    },
+    {
+        "title": "Compost.js",
+        "description": "Composable data visualization library",
+        "link": "https://compostjs.github.io/compost",
+        "category": "library"
     }
 ]
