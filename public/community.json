@@ -1,5 +1,17 @@
 [
     {
+        "title": "Fable.ReactAgGrid",
+        "description": "Fable Binding for ReactAgGrid",
+        "link": "https://github.com/DanpowerGruppe/Fable.ReactAgGrid",
+        "category": "library"
+    },
+    {
+        "title": "dexter",
+        "description": "A minimal Pokemon search made with Fable, Feliz and Elmish. It demoes React components designed with Typesafe styling.",
+        "link": "https://github.com/rajatsharma/dexter",
+        "category": "sample"
+    },
+    {
         "title": "The Gamma",
         "description": "Tools for creating open data visualisations that empower the reader to actively engage and explore data further",
         "link": "https://github.com/the-gamma",
