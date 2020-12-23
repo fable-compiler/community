@@ -6,6 +6,12 @@
         "category": "library"
     },
     {
+        "title": "Azure SDK",
+        "description": "Codegen for Azure SDKs, Authenticate with MSAL and call Graph APIs with Elmish.",
+        "link": "https://github.com/azure/fable-sdk-samples",
+        "category": "sample"
+    },
+    {
         "title": "dexter",
         "description": "A minimal Pokemon search made with Fable, Feliz and Elmish. It demoes React components designed with Typesafe styling.",
         "link": "https://github.com/rajatsharma/dexter",
