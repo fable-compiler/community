@@ -28,7 +28,7 @@
         "description": "Tomas Petricek's PhD research project. Ok, this is Funscript, not Fable, but it's awesome too!",
         "link": "http://tomasp.net/coeffects",
         "category": "sample"
-    },    
+    },
     {
         "title": "Thoth.Json",
         "description": "JSON serializer for Fable and .NET apps (this is the Fable version of it)",
@@ -367,8 +367,20 @@
     },
     {
         "title": "SAFE template",
-        "description": "Dotnet CLI template to bootstrap SAFE projects,",
+        "description": "Dotnet CLI template to bootstrap SAFE projects",
         "link": "https://github.com/SAFE-Stack/SAFE-template",
+        "category": "template"
+    },
+    {
+        "title": "SAFE.React",
+        "description": "A lightweight alternative template to the full-fledged official SAFE Template",
+        "link": "https://github.com/Zaid-Ajaj/SAFE.React",
+        "category": "template"
+    },
+    {
+        "title": "SAFEr.Template",
+        "description": "Strongly opinionated modification of amazing SAFE Stack Template for full-stack development in F#",
+        "link": "https://github.com/Dzoukr/SAFEr.Template",
         "category": "template"
     },
     {
@@ -675,6 +687,186 @@
         "title": "Compost.js",
         "description": "Composable data visualization library",
         "link": "https://compostjs.github.io/compost",
+        "category": "library"
+    },
+    {
+        "title": "Snowflaqe",
+        "description": "A dotnet CLI tool for generating type-safe GraphQL clients for F#",
+        "link": "https://github.com/Zaid-Ajaj/Snowflaqe",
+        "category": "tool"
+    },
+    {
+        "title": "Fable.Form",
+        "description": "Build composable, type-safe, scalable, terse and modular forms",
+        "link": "https://mangelmaxime.github.io/Fable.Form/",
+        "category": "library"
+    },
+    {
+        "title": "WebRTC with Fable and Ably",
+        "description": "Implementing a simple WebRTC signaling mechanism with FSharp, Fable, and Ably",
+        "link": "https://ably.com/blog/webrtc-signaling-fsharp-fable-ably",
+        "category": "sample"
+    },
+    {
+        "title": "Sutil",
+        "description": "Write frontend apps in F# without JS dependencies or a Virtual DOM",
+        "link": "https://davedawkins.github.io/Sutil/#documentation-about-sutil",
+        "category": "library"
+    },
+    {
+        "title": "Sutil.Generator",
+        "description": "Use Web Components from Shoelace or Fast with Sutil",
+        "link": "https://sutil-shoelace.web.app/",
+        "category": "library"
+    },
+    {
+        "title": "Lazy loading of localization texts in Fable",
+        "description": "Lazy loading of localization texts in Fable",
+        "link": "https://gist.github.com/kerams/2b91d9d2a6c5ab17e14cd3964f5195ce",
+        "category": "sample"
+    },
+    {
+        "title": "Fun.I18n",
+        "description": "Simple i18n type provider based on Fable.PolyglotProvider and Fable.JsonProvider compatible both with dotnet and fable",
+        "link": "https://github.com/albertwoo/Fun.I18n",
+        "category": "library"
+    },
+    {
+        "title": "Edit i18n json file",
+        "description": "Online helper to edit i18n json files",
+        "link": "https://albertwoo.github.io/Fun.I18n/",
+        "category": "tool"
+    },
+    {
+        "title": "Hawaii",
+        "description": "Dotnet CLI tool to generate type-safe F# clients from OpenAPI documents",
+        "link": "https://github.com/Zaid-Ajaj/Hawaii",
+        "category": "tool"
+    },
+    {
+        "title": "FSharpx.Collections",
+        "description": "Collection of datastructures compatible with Fable",
+        "link": "https://fsprojects.github.io/FSharpx.Collections/",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.SelectSearch",
+        "description": "A binding for react-select-search that implements a searchable and customizable dropdown for Feliz applications",
+        "link": "https://zaid-ajaj.github.io/Feliz/#/Components/SelectSearch",
+        "category": "library"
+    },
+    {
+        "title": "Creating AWS Lambda with F# and Fable",
+        "description": "Creating AWS Lambda with F# and Fable",
+        "link": "https://www.jamesdrandall.com/posts/creating_aws_lambda_with_fsharp_and_fable/",
+        "category": "sample"
+    },
+    {
+        "title": "Rollup Risk",
+        "description": "A risk and capability management solution for both small teams and large organizations made with Fable",
+        "link": "https://www.rolluprisk.com/",
+        "category": "sample"
+    },
+    {
+        "title": "StonkWatch",
+        "description": "YouTube series by Ben Gobeil on building a Stock Market Monitoring System with F#",
+        "link": "https://www.youtube.com/watch?v=ojCO-Ph1qdE&list=PLWtGeD5k0ryhV0Fq-_n9OADe1mud_ZTlT",
+        "category": "sample"
+    },
+    {
+        "title": "Fable.FormValidation",
+        "description": "Makes form validation easy in Fable React apps",
+        "link": "https://github.com/JordanMarr/Fable.FormValidation",
+        "category": "library"
+    },
+    {
+        "title": "Glutinum",
+        "description": "Glutinum is a tentative to bring an equivalent to DefinitelyTyped (Typescript bindings) for Fable ecosystem",
+        "link": "https://github.com/glutinum-org/Glutinum",
+        "category": "library"
+    },
+    {
+        "title": "Okido robot",
+        "description": "Programmable robot from the Okido magazine",
+        "link": "https://github.com/tpetricek/okido-robot",
+        "category": "sample"
+    },
+    {
+        "title": "BareNET",
+        "description": "Implementation of Binary Application Record Encoding (BARE) protocol, optimized for small messages and simplicity, compatible with dotnet and fable",
+        "link": "https://gitlab.com/nilshelmig/barenet#use-in-f-or-fable-projects",
+        "category": "library"
+    },
+    {
+        "title": "Elmish.Snabbdom",
+        "description": "Write web apps with Fable and Snabbdom (lightweight Virtual DOM)",
+        "link": "https://fable.io/blog/Announcing-Elmish-Snabbdom.html",
+        "category": "library"
+    },
+    {
+        "title": "proffsmagasinet.se",
+        "description": "E-commerce site written with SAFE and Fable",
+        "link": "https://www.proffsmagasinet.se/",
+        "category": "sample"
+    },
+    {
+        "title": "Reversi",
+        "description": "Reversi/Othello game with Fable",
+        "link": "https://github.com/markpattison/Reversi",
+        "category": "sample"
+    },
+    {
+        "title": "Fable.System.IO",
+        "description": "Use System.IO.Path from Fable",
+        "link": "https://github.com/jwosty/Fable.System.IO",
+        "category": "library"
+    },
+    {
+        "title": "FSharp.ValidationBlocks",
+        "description": "Validate without writing validation code, only rules",
+        "link": "https://impure.fun/fun/2021/01/11/fable-validation-blocks/",
+        "category": "library"
+    },
+    {
+        "title": "Fable.React.WebComponent",
+        "description": "Compile-time transformation to generate web components from react components",
+        "link": "https://github.com/DieselMeister/Fable.React.WebComponent",
+        "category": "library"
+    },
+    {
+        "title": "Fable.Store",
+        "description": "Use stores to manage state in your apps, also provides integration with Svelte",
+        "link": "https://github.com/fable-compiler/Fable.Store",
+        "category": "library"
+    },
+    {
+        "title": "Swate",
+        "description": "Swate Workflow Annotation Tool for Excel, made with SAFE",
+        "link": "https://github.com/nfdi4plants/Swate",
+        "category": "tool"
+    },
+    {
+        "title": "Fss",
+        "description": "Type-safe CSS library for Fable based on emotion-js",
+        "link": "https://blogg.bekk.no/introducing-fss-cff9fdd300a1",
+        "category": "library"
+    },
+    {
+        "title": "Gitpod & Snowpack",
+        "description": "Learn how to use Gitpod and Snowpack (frontend build tool) with Fable",
+        "link": "https://blog.nojaf.com/2020/12/15/fs-advent-2020-gitpod-snowpack/",
+        "category": "sample"
+    },
+    {
+        "title": "FuncyDown",
+        "description": "Create Markdown files written in F#, compatible with dotnet and fable",
+        "link": "https://github.com/GDATASoftwareAG/FuncyDown",
+        "category": "library"
+    },
+    {
+        "title": "Feliz.Quill",
+        "description": "Powerful rich text editor Quill as Feliz component",
+        "link": "https://dzoukr.github.io/Feliz.Quill/",
         "category": "library"
     }
 ]
