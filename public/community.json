@@ -848,7 +848,7 @@
     {
         "title": "Fss",
         "description": "Type-safe CSS library for Fable based on emotion-js",
-        "link": "https://blogg.bekk.no/introducing-fss-cff9fdd300a1",
+        "link": "https://github.com/Bjorn-Strom/FSS",
         "category": "library"
     },
     {
