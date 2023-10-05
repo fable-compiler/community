@@ -12,7 +12,7 @@
     "bulma": "^0.7.5",
     "copy-webpack-plugin": "^5.1.2",
     "core-js": "^3.6.4",
-    "css-loader": "^3.4.2",
+    "css-loader": "^6.8.1",
     "fable-compiler": "^2.4.12",
     "fable-loader": "^2.1.8",
     "file-loader": "^4.3.0",
