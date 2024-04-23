@@ -16,7 +16,7 @@
     "fable-compiler": "^2.4.12",
     "fable-loader": "^2.1.8",
     "file-loader": "^4.3.0",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^0.8.2",
     "react": "^16.12.0",
